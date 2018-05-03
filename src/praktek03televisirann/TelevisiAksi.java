@@ -15,6 +15,15 @@ public class TelevisiAksi {
         System.out.println(t.getWarna());
         System.out.print("Harganya \t: ");
         System.out.println(t.getHarga());
+        
+        Speaker s = new Speaker();
+        s.setMerek("Baomba");
+        s.setWarna("Silver");
+        s.setHarga(1500);
+        s.setJenisSpeaker("Protable");
+        s.cetakInfo();
+        System.out.println("Jenis \t:"+s.getJenisSpeaker());
+        s.throttle();
     }
  
 }
