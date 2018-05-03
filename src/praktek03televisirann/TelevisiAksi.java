@@ -8,6 +8,13 @@ public class TelevisiAksi {
         t.setHarga(3500);
         
         t.cetakInfo();
+        
+        System.out.print("Mereknya \t: ");
+        System.out.println(t.getMerek());
+        System.out.print("Warnanya \t: ");
+        System.out.println(t.getWarna());
+        System.out.print("Harganya \t: ");
+        System.out.println(t.getHarga());
     }
  
 }
